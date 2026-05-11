@@ -122,6 +122,17 @@ def normalize_unknown(value):
     return str(value)
 
 
+def format_cpu_usage(value):
+    if pd.isna(value):
+        return "in use"
+    if isinstance(value, (int, float)):
+        return "in use" if value == 0 else value
+    text = str(value).strip()
+    if text in {"", "0", "0.0", "0.00", "none", "None"}:
+        return "in use"
+    return value
+
+
 @st.cache_data(ttl=60)
 def list_core_files():
     if not CORE_DIR.exists():
@@ -250,6 +261,9 @@ with st.sidebar:
 df = load_csv() if "CSV" in data_source else load_db()
 if df.empty and data_source == "SQLite DB":
     df = load_csv()   # fallback
+
+if not df.empty and "cpu_usage" in df.columns:
+    df["cpu_usage"] = df["cpu_usage"].apply(format_cpu_usage)
 
 # ─── Tabs ─────────────────────────────────────────────────────────────────────
 tab_overview, tab_timeline, tab_details, tab_cores = st.tabs([
