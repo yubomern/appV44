@@ -77,6 +77,8 @@ sudo sh -c 'echo "simulator_output/coredumps/core.%e.%p.%t" > /proc/sys/kernel/c
 ulimit -c unlimited
 ```
 
+###    ./gdb  ./main  
+
 ### 3. `crash_analyzer` — Intelligent Analyzer
 - Reads CSV from simulator **and** real `.core` files via GDB
 - Runs ML pattern matching + solution proposals
