@@ -35,8 +35,6 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -89,7 +87,6 @@ events:
         - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1.1.1\\bin"
         - "C:\\Program Files\\Redis"
         - "C:\\Program Files\\gstreamer\\1.0\\msvc_x86_64\\bin"
-        - "c:\\Users\\hp\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -106,7 +103,7 @@ events:
       The output was:
       0
       Version MSBuild 17.14.23+b0019275e pour .NET Framework
-      La g├®n├®ration a d├®marr├® 11/05/2026 21:42:57.
+      La g├®n├®ration a d├®marr├® 12/05/2026 01:01:19.
       
       Projet "C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
       PrepareForBuild:
@@ -144,7 +141,7 @@ events:
           0 Avertissement(s)
           0 Erreur(s)
       
-      Temps ├®coul├® 00:00:02.77
+      Temps ├®coul├® 00:00:04.67
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -177,8 +174,6 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -230,14 +225,11 @@ events:
       - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.1.1.1/bin/"
       - "C:/Program Files/Redis/"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -290,7 +282,6 @@ events:
         - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1.1.1\\bin"
         - "C:\\Program Files\\Redis"
         - "C:\\Program Files\\gstreamer\\1.0\\msvc_x86_64\\bin"
-        - "c:\\Users\\hp\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -314,8 +305,6 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -367,17 +356,10 @@ events:
       - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.1.1.1/bin/"
       - "C:/Program Files/Redis/"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
@@ -531,14 +513,9 @@ events:
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/lld-link.com"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/lld-link.exe"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/lld-link"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
     found: false
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -591,7 +568,6 @@ events:
         - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1.1.1\\bin"
         - "C:\\Program Files\\Redis"
         - "C:\\Program Files\\gstreamer\\1.0\\msvc_x86_64\\bin"
-        - "c:\\Users\\hp\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -613,8 +589,6 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -666,14 +640,11 @@ events:
       - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.1.1.1/bin/"
       - "C:/Program Files/Redis/"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -726,7 +697,6 @@ events:
         - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1.1.1\\bin"
         - "C:\\Program Files\\Redis"
         - "C:\\Program Files\\gstreamer\\1.0\\msvc_x86_64\\bin"
-        - "c:\\Users\\hp\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -748,8 +718,6 @@ events:
       - "mt"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -801,17 +769,10 @@ events:
       - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.1.1.1/bin/"
       - "C:/Program Files/Redis/"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
@@ -965,14 +926,9 @@ events:
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/mt.com"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/mt.exe"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/mt"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/mt.com"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/mt.exe"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/mt"
     found: false
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -1025,7 +981,6 @@ events:
         - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1.1.1\\bin"
         - "C:\\Program Files\\Redis"
         - "C:\\Program Files\\gstreamer\\1.0\\msvc_x86_64\\bin"
-        - "c:\\Users\\hp\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1047,8 +1002,6 @@ events:
       - "lib"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -1100,14 +1053,11 @@ events:
       - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.1.1.1/bin/"
       - "C:/Program Files/Redis/"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -1160,7 +1110,6 @@ events:
         - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1.1.1\\bin"
         - "C:\\Program Files\\Redis"
         - "C:\\Program Files\\gstreamer\\1.0\\msvc_x86_64\\bin"
-        - "c:\\Users\\hp\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1184,8 +1133,6 @@ events:
     names:
       - "rc"
     candidate_directories:
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -1237,7 +1184,6 @@ events:
       - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.1.1.1/bin/"
       - "C:/Program Files/Redis/"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1251,12 +1197,6 @@ events:
       - "C:/Program Files (x86)/CoreDumpPFE/sbin/"
       - "C:/Program Files (x86)/CoreDumpPFE/"
     searched_directories:
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
@@ -1410,9 +1350,6 @@ events:
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/rc.com"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/rc.exe"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/rc"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/rc.com"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/rc.exe"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/rc"
       - "C:/Program Files/bin/rc.com"
       - "C:/Program Files/bin/rc.exe"
       - "C:/Program Files/bin/rc"
@@ -1452,8 +1389,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -1506,7 +1441,6 @@ events:
         - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1.1.1\\bin"
         - "C:\\Program Files\\Redis"
         - "C:\\Program Files\\gstreamer\\1.0\\msvc_x86_64\\bin"
-        - "c:\\Users\\hp\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CoreDumpPFE"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1522,8 +1456,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/hp/Desktop/ziedapplication/appminister/doaaaaaa/app_v3_commentaire/build/CMakeFiles/CMakeScratch/TryCompile-ht68ez"
-      binary: "C:/Users/hp/Desktop/ziedapplication/appminister/doaaaaaa/app_v3_commentaire/build/CMakeFiles/CMakeScratch/TryCompile-ht68ez"
+      source: "C:/Users/hp/Desktop/ziedapplication/appminister/doaaaaaa/app_v3_commentaire/build/CMakeFiles/CMakeScratch/TryCompile-p9vlel"
+      binary: "C:/Users/hp/Desktop/ziedapplication/appminister/doaaaaaa/app_v3_commentaire/build/CMakeFiles/CMakeScratch/TryCompile-p9vlel"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1533,49 +1467,49 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hp/Desktop/ziedapplication/appminister/doaaaaaa/app_v3_commentaire/build/CMakeFiles/CMakeScratch/TryCompile-ht68ez'
+        Change Dir: 'C:/Users/hp/Desktop/ziedapplication/appminister/doaaaaaa/app_v3_commentaire/build/CMakeFiles/CMakeScratch/TryCompile-p9vlel'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1881a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a3212.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Version MSBuild 17.14.23+b0019275e pour .NET Framework
-        La g├®n├®ration a d├®marr├® 11/05/2026 21:43:01.
+        La g├®n├®ration a d├®marr├® 12/05/2026 01:01:25.
         
-        Projet "C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ht68ez\\cmTC_1881a.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
+        Projet "C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9vlel\\cmTC_a3212.vcxproj" sur le n┼ôud 1 (cibles par d├®faut).
         PrepareForBuild:
-          Cr├®ation du r├®pertoire "cmTC_1881a.dir\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_a3212.dir\\Debug\\".
           La sortie structur├®e est activ├®e. La mise en forme du compilateur diagnostics refl├¿te la hi├®rarchie des erreurs. Pour plus dÔÇÖinformations, consultez https://aka.ms/cpp/structured-output.
-          Cr├®ation du r├®pertoire "C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ht68ez\\Debug\\".
-          Cr├®ation du r├®pertoire "cmTC_1881a.dir\\Debug\\cmTC_1881a.tlog\\".
+          Cr├®ation du r├®pertoire "C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9vlel\\Debug\\".
+          Cr├®ation du r├®pertoire "cmTC_a3212.dir\\Debug\\cmTC_a3212.tlog\\".
         InitializeBuildStatus:
-          Cr├®ation de "cmTC_1881a.dir\\Debug\\cmTC_1881a.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
-          Mise ├á jour de l'horodatage "cmTC_1881a.dir\\Debug\\cmTC_1881a.tlog\\unsuccessfulbuild".
+          Cr├®ation de "cmTC_a3212.dir\\Debug\\cmTC_a3212.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ├®t├® sp├®cifi├®.
+          Mise ├á jour de l'horodatage "cmTC_a3212.dir\\Debug\\cmTC_a3212.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_1881a.dir\\Debug\\\\" /Fd"cmTC_1881a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_a3212.dir\\Debug\\\\" /Fd"cmTC_a3212.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           Compilateur d'optimisation Microsoft (R) C/C++ version┬á19.44.35216 pour x64
           Copyright (C) Microsoft Corporation. Tous droits r├®serv├®s.
-          cl /c /I"C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_1881a.dir\\Debug\\\\" /Fd"cmTC_1881a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /I"C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_a3212.dir\\Debug\\\\" /Fd"cmTC_a3212.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ht68ez\\Debug\\cmTC_1881a.exe" /INCREMENTAL /ILK:"cmTC_1881a.dir\\Debug\\cmTC_1881a.ilk" /NOLOGO /LIBPATH:"C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/hp/Desktop/ziedapplication/appminister/doaaaaaa/app_v3_commentaire/build/CMakeFiles/CMakeScratch/TryCompile-ht68ez/Debug/cmTC_1881a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/hp/Desktop/ziedapplication/appminister/doaaaaaa/app_v3_commentaire/build/CMakeFiles/CMakeScratch/TryCompile-ht68ez/Debug/cmTC_1881a.lib" /MACHINE:X64  /machine:x64 cmTC_1881a.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_1881a.vcxproj -> C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ht68ez\\Debug\\cmTC_1881a.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9vlel\\Debug\\cmTC_a3212.exe" /INCREMENTAL /ILK:"cmTC_a3212.dir\\Debug\\cmTC_a3212.ilk" /NOLOGO /LIBPATH:"C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/hp/Desktop/ziedapplication/appminister/doaaaaaa/app_v3_commentaire/build/CMakeFiles/CMakeScratch/TryCompile-p9vlel/Debug/cmTC_a3212.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/hp/Desktop/ziedapplication/appminister/doaaaaaa/app_v3_commentaire/build/CMakeFiles/CMakeScratch/TryCompile-p9vlel/Debug/cmTC_a3212.lib" /MACHINE:X64  /machine:x64 cmTC_a3212.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a3212.vcxproj -> C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9vlel\\Debug\\cmTC_a3212.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ht68ez\\Debug\\cmTC_1881a.exe" "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_1881a.dir\\Debug\\cmTC_1881a.tlog\\cmTC_1881a.write.1u.tlog" "cmTC_1881a.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9vlel\\Debug\\cmTC_a3212.exe" "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a3212.dir\\Debug\\cmTC_a3212.tlog\\cmTC_a3212.write.1u.tlog" "cmTC_a3212.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' n'est pas reconnu en tant que commande interne
           ou externe, un programme ex├®cutable ou un fichier de commandes.
-          La commande "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ht68ez\\Debug\\cmTC_1881a.exe" "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_1881a.dir\\Debug\\cmTC_1881a.tlog\\cmTC_1881a.write.1u.tlog" "cmTC_1881a.dir\\Debug\\vcpkg.applocal.log"" s'est arr├¬t├®e avec le code 9009.
-          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ht68ez\\Debug\\cmTC_1881a.exe" "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_1881a.dir\\Debug\\cmTC_1881a.tlog\\cmTC_1881a.write.1u.tlog" "cmTC_1881a.dir\\Debug\\vcpkg.applocal.log"
+          La commande "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9vlel\\Debug\\cmTC_a3212.exe" "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a3212.dir\\Debug\\cmTC_a3212.tlog\\cmTC_a3212.write.1u.tlog" "cmTC_a3212.dir\\Debug\\vcpkg.applocal.log"" s'est arr├¬t├®e avec le code 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9vlel\\Debug\\cmTC_a3212.exe" "C:\\Users\\hp\\Desktop\\cproject\\crowwebb\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a3212.dir\\Debug\\cmTC_a3212.tlog\\cmTC_a3212.write.1u.tlog" "cmTC_a3212.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Suppression du fichier "cmTC_1881a.dir\\Debug\\cmTC_1881a.tlog\\unsuccessfulbuild".
-          Mise ├á jour de l'horodatage "cmTC_1881a.dir\\Debug\\cmTC_1881a.tlog\\cmTC_1881a.lastbuildstate".
-        G├®n├®ration du projet "C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ht68ez\\cmTC_1881a.vcxproj" termin├®e (cibles par d├®faut).
+          Suppression du fichier "cmTC_a3212.dir\\Debug\\cmTC_a3212.tlog\\unsuccessfulbuild".
+          Mise ├á jour de l'horodatage "cmTC_a3212.dir\\Debug\\cmTC_a3212.tlog\\cmTC_a3212.lastbuildstate".
+        G├®n├®ration du projet "C:\\Users\\hp\\Desktop\\ziedapplication\\appminister\\doaaaaaa\\app_v3_commentaire\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p9vlel\\cmTC_a3212.vcxproj" termin├®e (cibles par d├®faut).
         
         La g├®n├®ration a r├®ussi.
             0 Avertissement(s)
             0 Erreur(s)
         
-        Temps ├®coul├® 00:00:02.17
+        Temps ├®coul├® 00:00:02.51
         
       exitCode: 0
   -
@@ -1611,7 +1545,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:69 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindSQLite3.cmake:52 (find_package)"
-      - "CMakeLists.txt:80 (find_package)"
+      - "CMakeLists.txt:106 (find_package)"
     mode: "program"
     variable: "PKG_CONFIG_EXECUTABLE"
     description: "pkg-config executable"
@@ -1628,8 +1562,6 @@ events:
       - "pkg-config"
       - "pkgconf"
     candidate_directories:
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -1681,7 +1613,6 @@ events:
       - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.1.1.1/bin/"
       - "C:/Program Files/Redis/"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1695,24 +1626,6 @@ events:
       - "C:/Program Files (x86)/CoreDumpPFE/sbin/"
       - "C:/Program Files (x86)/CoreDumpPFE/"
     searched_directories:
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/pkg-config.bat.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/pkg-config.bat.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/pkg-config.bat"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/pkg-config.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/pkg-config.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/pkg-config"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/pkgconf.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/pkgconf.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/pkgconf"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/pkg-config.bat.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/pkg-config.bat.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/pkg-config.bat"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/pkg-config.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/pkg-config.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/pkg-config"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/pkgconf.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/pkgconf.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/pkgconf"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/pkg-config.bat.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/pkg-config.bat.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/pkg-config.bat"
@@ -2128,8 +2041,6 @@ events:
     found: "C:/mingw64/bin/pkgconf.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -2182,7 +2093,6 @@ events:
         - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1.1.1\\bin"
         - "C:\\Program Files\\Redis"
         - "C:\\Program Files\\gstreamer\\1.0\\msvc_x86_64\\bin"
-        - "c:\\Users\\hp\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CoreDumpPFE"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2193,7 +2103,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindSQLite3.cmake:58 (find_path)"
-      - "CMakeLists.txt:80 (find_package)"
+      - "CMakeLists.txt:106 (find_package)"
     mode: "path"
     variable: "SQLite3_INCLUDE_DIR"
     description: "Path to a file."
@@ -2208,8 +2118,6 @@ events:
     names:
       - "sqlite3.h"
     candidate_directories:
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -2261,7 +2169,6 @@ events:
       - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.1.1.1/bin/"
       - "C:/Program Files/Redis/"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/include/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/include/"
@@ -2271,8 +2178,6 @@ events:
       - "C:/Program Files (x86)/CoreDumpPFE/include/"
       - "C:/Program Files (x86)/CoreDumpPFE/"
     searched_directories:
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/sqlite3.h"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/sqlite3.h"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/sqlite3.h"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/sqlite3.h"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/sqlite3.h"
@@ -2324,7 +2229,6 @@ events:
       - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.1.1.1/bin/sqlite3.h"
       - "C:/Program Files/Redis/sqlite3.h"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/sqlite3.h"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/sqlite3.h"
       - "C:/Program Files/include/sqlite3.h"
       - "C:/Program Files/sqlite3.h"
       - "C:/Program Files (x86)/include/sqlite3.h"
@@ -2336,8 +2240,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -2390,7 +2292,6 @@ events:
         - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1.1.1\\bin"
         - "C:\\Program Files\\Redis"
         - "C:\\Program Files\\gstreamer\\1.0\\msvc_x86_64\\bin"
-        - "c:\\Users\\hp\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CoreDumpPFE"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2401,7 +2302,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindSQLite3.cmake:65 (find_library)"
-      - "CMakeLists.txt:80 (find_package)"
+      - "CMakeLists.txt:106 (find_package)"
     mode: "library"
     variable: "SQLite3_LIBRARY"
     description: "Path to a library."
@@ -2417,8 +2318,6 @@ events:
       - "sqlite3"
       - "sqlite"
     candidate_directories:
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -2470,7 +2369,6 @@ events:
       - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.1.1.1/bin/"
       - "C:/Program Files/Redis/"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/lib/"
@@ -2482,8 +2380,6 @@ events:
       - "C:/Program Files (x86)/CoreDumpPFE/bin/"
       - "/bin/"
     searched_directories:
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -2535,7 +2431,6 @@ events:
       - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.1.1.1/bin/"
       - "C:/Program Files/Redis/"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/lib/"
@@ -2546,8 +2441,6 @@ events:
       - "C:/Program Files (x86)/CoreDumpPFE/"
       - "C:/Program Files (x86)/CoreDumpPFE/bin/"
       - "/bin/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
@@ -2599,7 +2492,6 @@ events:
       - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.1.1.1/bin/"
       - "C:/Program Files/Redis/"
       - "C:/Program Files/gstreamer/1.0/msvc_x86_64/bin/"
-      - "C:/Users/hp/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/lib/"
@@ -2613,8 +2505,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -2667,7 +2557,6 @@ events:
         - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1.1.1\\bin"
         - "C:\\Program Files\\Redis"
         - "C:\\Program Files\\gstreamer\\1.0\\msvc_x86_64\\bin"
-        - "c:\\Users\\hp\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CoreDumpPFE"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"

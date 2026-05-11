@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hp\Desktop\ziedapplication\appminister\doaaaaaa\app_v3_commentaire\build\CMakeFiles\b00522cab5f2af3f82f0b984a7979100\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{84D119D1-7308-3369-973E-B31F9A27FEAA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

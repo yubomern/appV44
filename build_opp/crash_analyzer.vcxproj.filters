@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hp\Desktop\ziedapplication\appminister\doaaaaaa\app_v3_commentaire\analyzer\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hp\Desktop\ziedapplication\appminister\doaaaaaa\app_v3_commentaire\analyzer\src\CoreAnalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hp\Desktop\ziedapplication\appminister\doaaaaaa\app_v3_commentaire\analyzer\src\CSVExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hp\Desktop\ziedapplication\appminister\doaaaaaa\app_v3_commentaire\analyzer\src\DatabaseManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hp\Desktop\ziedapplication\appminister\doaaaaaa\app_v3_commentaire\analyzer\src\PatternMatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hp\Desktop\ziedapplication\appminister\doaaaaaa\app_v3_commentaire\analyzer\src\MLAnalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hp\Desktop\ziedapplication\appminister\doaaaaaa\app_v3_commentaire\analyzer\src\SolutionProposer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hp\Desktop\ziedapplication\appminister\doaaaaaa\app_v3_commentaire\analyzer\src\CoreFileParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hp\Desktop\ziedapplication\appminister\doaaaaaa\app_v3_commentaire\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1257FA26-471C-362E-A0BE-D7324879F2DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

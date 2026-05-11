@@ -2,7 +2,7 @@
 /*
  * CoreAnalyzer.hpp - Interface du moteur d'analyse principal.
  * Cette interface définit la classe qui orchestre le traitement des entrées,
- * l'analyse ML, la correspondance de motifs et l'export des résultats.
+ * 
  */
 
 #include "DatabaseManager.hpp"
