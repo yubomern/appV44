@@ -1,0 +1,10 @@
+^C:\USERS\HP\DESKTOP\ZIEDAPPLICATION\APPMINISTER\DOAAAAAA\APP_V3_COMMENTAIRE\BUILD\CMAKEFILES\B00522CAB5F2AF3F82F0B984A7979100\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/hp/Desktop/ziedapplication/appminister/doaaaaaa/app_v3_commentaire -BC:/Users/hp/Desktop/ziedapplication/appminister/doaaaaaa/app_v3_commentaire/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hp/Desktop/ziedapplication/appminister/doaaaaaa/app_v3_commentaire/build/CoreDumpPFE.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
