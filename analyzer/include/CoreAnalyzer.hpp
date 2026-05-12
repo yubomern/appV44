@@ -1,7 +1,8 @@
 #pragma once
 /*
- * CoreAnalyzer.hpp - Interface du moteur d'analyse principal.
- * Cette interface définit la classe qui orchestre le traitement des entrées,
+ * CoreAnalyzer.hpp - Main analysis engine interface.
+ * This interface defines the class that orchestrates input processing,
+ * analysis, and export workflows.
  * 
  */
 
@@ -34,7 +35,7 @@ public:
     void EnableEmbeddedMode(bool enabled) { embedded_mode_ = enabled; }
     std::vector<std::string> GetEmbeddedRecommendations(const std::string& crash_type);
 
-    // Affiche résumé dans la console
+    // Prints a summary to the console
     void PrintSummary() const;
 
     // Export functions

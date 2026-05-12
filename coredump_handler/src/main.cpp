@@ -1,22 +1,22 @@
 /*
  * coredump_handler/src/main.cpp  v3.0
  *
- * Objectif 2 : Intégration avec le noyau OS.
- * Ce binaire est enregistré comme gestionnaire de coredump via :
+ * Objective 2: OS kernel integration.
+ * This binary is registered as a coredump handler via:
  *
  *   echo "|/path/to/coredump_handler %P %u %g %s %t %h %e" \
  *       > /proc/sys/kernel/core_pattern
  *
- * Lorsqu'un processus plante, le noyau envoie les données du core en entrée
- * standard de ce programme. Nous :
- *   1. sauvons le core brut dans COREDUMP_DIR/core.<exe>.<pid>.<ts>
- *   2. collectons les métriques système au moment du crash
- *   3. écrivons un fichier JSON de métadonnées de crash
- *   4. déclenchons éventuellement l'analyseur immédiatement
+ * When a process crashes, the kernel sends the core data to this program's
+ * standard input. We:
+ *   1. save the raw core into COREDUMP_DIR/core.<exe>.<pid>.<ts>
+ *   2. collect system metrics at crash time
+ *   3. write a JSON crash metadata file
+ *   4. optionally trigger the analyzer immediately
  *
- * Peut aussi être lancé seul pour tester ou configurer les coredumps :
- *   ./coredump_handler --setup          # configurer le noyau + ulimit
- *   ./coredump_handler --status         # vérifier la configuration
+ * It can also run standalone to test or configure core dumps:
+ *   ./coredump_handler --setup          # configure kernel + ulimit
+ *   ./coredump_handler --status         # verify configuration
  */
 
 #include "CoreDump.hpp"

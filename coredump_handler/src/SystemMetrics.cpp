@@ -1,7 +1,7 @@
 /*
- * SystemMetrics.cpp - Capture des métriques système au moment du crash.
- * Remplit la structure de métriques avec l'utilisation CPU, mémoire,
- * PID, nom du processus et état des threads.
+ * SystemMetrics.cpp - Capture system metrics at crash time.
+ * Fills the metrics structure with CPU usage, memory,
+ * PID, process name, and thread state.
  */
 
 #include "SystemMetrics.hpp"

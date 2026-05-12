@@ -1,8 +1,8 @@
 #pragma once
 /*
- * SolutionProposer.hpp - Interface des propositions de correction.
- * Déclare les structures et la classe qui fournissent des plans d'action
- * et des mesures préventives pour chaque type de crash.
+ * SolutionProposer.hpp - Solution proposal interface.
+ * Declares structures and the class that provide action plans
+ * and preventive measures for each crash type.
  */
 
 #include <string>

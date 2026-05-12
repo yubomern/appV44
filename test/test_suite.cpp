@@ -1,15 +1,15 @@
 /*
  * test/test_suite.cpp  v3.0
  *
- * Objectif 1 : Fichier de test automatisé — remplace les tests manuels.
- * Exécute le pipeline COMPLET :
- *   1. Configuration des coredumps (ulimit + core_pattern)
- *   2. Exécution de crash_simulator → génère CSV + .core
- *   3. Exécution de crash_analyzer → lit CSV + .core → DB + CSV enrichi + JSON
- *   4. Vérification que les sorties existent et ne sont pas vides
- *   5. Résumé du résultat pass/fail
+ * Objective 1: Automated test file — replaces manual tests.
+ * Runs the FULL pipeline:
+ *   1. Configure core dumps (ulimit + core_pattern)
+ *   2. Run crash_simulator → generates CSV + .core files
+ *   3. Run crash_analyzer → reads CSV + .core → DB + enriched CSV + JSON
+ *   4. Verify that outputs exist and are not empty
+ *   5. Summarize pass/fail result
  *
- * Construction et exécution :
+ * Build and run:
  *   cd build && cmake .. && make && ./bin/test_suite
  */
 

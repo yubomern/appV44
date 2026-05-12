@@ -1,7 +1,7 @@
 /*
- * CoreDumpConfig.cpp - Configuration du comportement des coredumps.
- * Gère l'initialisation des paramètres du kernel, la création du dossier
- * de sortie et la persistance des réglages pour les dumps.
+ * CoreDumpConfig.cpp - Core dump behavior configuration.
+ * Manages kernel settings initialization, output directory creation,
+ * and persistence of dump configuration.
  */
 
 #include "CoreDumpConfig.hpp"

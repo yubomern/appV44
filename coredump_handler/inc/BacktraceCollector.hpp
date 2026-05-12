@@ -1,6 +1,6 @@
 /*
- * BacktraceCollector.hpp - Interface de collecte de pile d'appels.
- * Définit la structure des frames de backtrace et l'API de collecte.
+ * BacktraceCollector.hpp - Call stack collection interface.
+ * Defines the backtrace frame structure and collection API.
  */
 
 #pragma once

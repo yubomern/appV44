@@ -1,7 +1,7 @@
 /*
- * CSVExporter.cpp - Exportation des résultats d'analyse vers CSV.
- * Génère un fichier CSV structuré contenant les causes probables,
- * la sévérité, les solutions et les prédictions ML.
+ * CSVExporter.cpp - Export analysis results to CSV.
+ * Generates a structured CSV file containing probable causes,
+ * severity, recommended fixes, and ML predictions.
  */
 
 #include "CSVExporter.hpp"

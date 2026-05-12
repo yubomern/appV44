@@ -1,7 +1,7 @@
 /*
- * CoreDumpConfig.hpp - Configuration du noyau pour la génération de coredumps.
- * Déclare les paramètres de sortie, les limites de taille et les règles
- * de collecte utilisées par le gestionnaire de coredump.
+ * CoreDumpConfig.hpp - Kernel configuration for core dump generation.
+ * Declares output settings, size limits, and collection rules
+ * used by the core dump manager.
  */
 
 #ifndef CORE_DUMP_CONFIG_HPP

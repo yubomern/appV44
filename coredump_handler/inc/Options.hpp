@@ -1,7 +1,7 @@
 /*
- * Options.hpp - Définitions de configuration et constantes globales.
- * Ce fichier regroupe les options de compilation, les tailles des buffers
- * et les constantes partagées par le gestionnaire de coredump.
+ * Options.hpp - Configuration definitions and global constants.
+ * This file contains compile options, buffer sizes,
+ * and constants shared by the coredump handler.
  */
 
 #pragma once

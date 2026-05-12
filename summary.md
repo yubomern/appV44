@@ -49,3 +49,29 @@ streamlit run dashboard/dashboard.py
 - The analyzer currently exports CSV and JSON results successfully.
 - `crash_analysis.db` is not being written by the analyzer due to the in-memory `DatabaseManager` implementation.
 - The dashboard will display `in use` for CPU values that were previously shown as `0` or empty.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // ── Step 2: AI analysis pipeline ─────────────────────────────────────────
+    // std::cout << "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
+    // std::cout << "🤖 Step 2/3: Running ML + Pattern analysis...\n";
+    // std::cout << "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
+
+    // Analyzer::CoreAnalyzer analyzer(db_path);
+    // analyzer.ProcessInput(input_csv, output_csv);
+    // analyzer.PrintSummary();

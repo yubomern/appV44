@@ -1,12 +1,12 @@
 /*
- * simulator_main.cpp - Simulateur de crash autonome.
- * Ce fichier lance la simulation de plantage, génère des rapports CSV
- * et écrit des coredumps pour le pipeline d'analyse.
+ * simulator_main.cpp - Standalone crash simulator.
+ * This file launches crash simulation, generates CSV reports,
+ * and writes core dumps for the analysis pipeline.
  *
- * Usage :
- *   ./crash_simulator              # un crash aléatoire
- *   ./crash_simulator --count N    # N crashs aléatoires
- *   ./crash_simulator --config scenario.cfg  # charger un scénario
+ * Usage:
+ *   ./crash_simulator              # one random crash
+ *   ./crash_simulator --count N    # N random crashes
+ *   ./crash_simulator --config scenario.cfg  # load a scenario
  */
 
 #include "Simulator.hpp"

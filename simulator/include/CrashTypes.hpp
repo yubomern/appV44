@@ -1,7 +1,7 @@
 /*
- * CrashTypes.hpp - Définition des types et structures de crash.
- * Contient les catégories de défaillance, la configuration de simulation
- * et les structures de rapport utilisées par le simulateur.
+ * CrashTypes.hpp - Definition of crash types and structures.
+ * Contains failure categories, simulation configuration,
+ * and report structures used by the simulator.
  */
 
 #pragma once

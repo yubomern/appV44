@@ -1,8 +1,8 @@
 #pragma once
 /*
- * CSVExporter.hpp - Interface d'export CSV.
- * Déclare les structures et fonctions pour écrire les résultats d'analyse
- * dans un fichier CSV structuré.
+ * CSVExporter.hpp - CSV export interface.
+ * Declares structures and functions for writing analysis results
+ * into a structured CSV file.
  */
 
 #include <string>

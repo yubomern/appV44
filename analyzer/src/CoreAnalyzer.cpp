@@ -1,7 +1,7 @@
 /*
- * CoreAnalyzer.cpp - Moteur principal de l'analyse de crash.
- * Ce fichier orchestre le pipeline : lecture de données, analyse ML,
- * détection de motifs, stockage et export.
+ * CoreAnalyzer.cpp - Main crash analysis engine.
+ * This file orchestrates the pipeline: data loading, ML analysis,
+ * pattern detection, storage, and export.
  */
 
 #include "CoreAnalyzer.hpp"

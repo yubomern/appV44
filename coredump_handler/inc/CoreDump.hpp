@@ -1,7 +1,7 @@
 /*
- * CoreDump.hpp - Structures principales pour la gestion des coredumps.
- * Définit les types de défaut, la structure de snapshot et les données
- * associées au crash.
+ * CoreDump.hpp - Core dump management structures.
+ * Defines fault types, snapshot structures, and
+ * crash-related data.
  */
 
 #pragma once

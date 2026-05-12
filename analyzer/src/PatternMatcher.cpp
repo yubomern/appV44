@@ -1,7 +1,7 @@
 /*
- * PatternMatcher.cpp - Recherche de signatures de crash dans les données.
- * Ce fichier contient l'algorithme de correspondance de motifs qui détermine
- * les causes probables et les recommandations associées.
+ * PatternMatcher.cpp - Crash signature matching in data.
+ * This file contains the pattern matching algorithm that determines
+ * probable causes and associated recommendations.
  */
 
 #include "PatternMatcher.hpp"

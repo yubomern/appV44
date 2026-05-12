@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
 dashboard/dashboard.py  v3.0
-Dashboard d’investigation des crashs — Objectif 3
-- Lit le CSV d’analyse et la base SQLite produits par crash_analyzer
-- Affiche les crashs, la sévérité, la chronologie et les motifs
-- Onglet IA : appelle une API pour corréler les crashs et proposer des corrections
-- Onglet Fichiers Core : affiche les métadonnées des fichiers .core analysés
+Crash investigation dashboard — Objective 3
+- Reads the analyzer-generated CSV and SQLite database
+- Displays crashes, severity, timeline, and patterns
+- AI tab: calls an API to correlate crashes and suggest fixes
+- Core Files tab: shows metadata for analyzed .core files
 """
 
 import streamlit as st

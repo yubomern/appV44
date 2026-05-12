@@ -1,10 +1,10 @@
 /*
- * MLAnalyzer.cpp - Analyse du crash par apprentissage automatique.
- * Ce module applique des modèles et des règles pour prédire les causes,
- * suggérer des solutions et classer la gravité.
+ * MLAnalyzer.cpp - Crash analysis using machine learning.
+ * This module applies models and rules to predict causes,
+ * suggest fixes, and classify severity.
  *
- * Note: l'intégration IA est prévue comme extension et est décrite
- * dans le dashboard Python. Ce module reste un moteur local de prédiction.
+ * Note: AI integration is planned as an extension and described
+ * in the Python dashboard. This module remains a local prediction engine.
  */
 
 #include "MLAnalyzer.hpp"

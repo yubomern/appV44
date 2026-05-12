@@ -1,7 +1,7 @@
 /*
- * SolutionProposer.cpp - Génération de recommandations de correction.
- * Ce module prépare des actions immédiates et des mesures préventives
- * adaptées aux types de crash identifiés.
+ * SolutionProposer.cpp - Solution recommendation generator.
+ * This module prepares immediate actions and preventive measures
+ * tailored to identified crash types.
  */
 
 #include "SolutionProposer.hpp"

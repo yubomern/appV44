@@ -1,8 +1,8 @@
 #pragma once
 /*
- * DatabaseManager.hpp - Interface de gestion des enregistrements de crash.
- * Déclare la structure de données et les méthodes pour stocker puis récupérer
- * les résultats de l'analyse en mémoire.
+ * DatabaseManager.hpp - Crash record storage interface.
+ * Declares data structures and methods for storing and retrieving
+ * analysis results in memory.
  */
 
 #include <string>

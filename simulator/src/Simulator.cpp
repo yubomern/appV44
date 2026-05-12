@@ -1,7 +1,7 @@
 /*
- * Simulator.cpp - Implémentation du simulateur de crash.
- * Ce module crée des situations de plantage variées, simule les effets
- * et enregistre les résultats pour l'analyse automatique.
+ * Simulator.cpp - Crash simulator implementation.
+ * This module creates varied crash scenarios, simulates their effects,
+ * and records results for automatic analysis.
  */
 
 #include "Simulator.hpp"
@@ -466,7 +466,7 @@ void Simulator::triggerStackBufferOverflow() {
   
 
 // ═════════════════════════════════════════════════════════════════════════════
-//  CSV Export - Sauvegarde du rapport de crash
+//  CSV Export - Save crash report
 // ═════════════════════════════════════════════════════════════════════════════
 
 bool Simulator::exportToCSV(const std::string& filename) {
@@ -483,11 +483,11 @@ bool Simulator::exportToCSV(const std::string& filename) {
         return false;
     }
     
-    // Vérifier si le fichier est vide pour écrire l'en-tête
+    // Check if the file is empty to write the header
     csv.seekp(0, std::ios::end);
     bool isEmpty = (csv.tellp() == 0);
     
-    // Écrire l'en-tête si fichier nouveau
+    // Write the header if the file is new
     if (isEmpty) {
         csv << "timestamp,unix_timestamp,category,category_name,seed,"
             << "description,call_chain_depth,exception_code,intensity,"
@@ -506,7 +506,7 @@ bool Simulator::exportToCSV(const std::string& filename) {
     char timestamp_buf[32];
     std::strftime(timestamp_buf, sizeof(timestamp_buf), "%Y-%m-%d %H:%M:%S", &tm_timestamp);
     
-    // Écrire la ligne de données
+    // Write the data line
     csv << "\"" << timestamp_buf << "\","                    // timestamp
         << time_t_timestamp << ","                           // unix_timestamp
         << static_cast<int>(last_report_.category) << ","    // category (ID)

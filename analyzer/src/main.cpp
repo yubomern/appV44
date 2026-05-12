@@ -1,16 +1,16 @@
 /*
  * analyzer/src/main.cpp  v3.0
  *
- * Objectif 3 : Analyseur de crash intelligent — lit le CSV du simulateur
- *               ET les vrais fichiers .core produits par le noyau.
+ * Objective 3: Intelligent crash analyzer — reads simulator CSV
+ *               AND the real .core files produced by the kernel.
  *
- * Utilisation :
- *   ./crash_analyzer                               # valeurs par défaut
- *   ./crash_analyzer --input path/crash.csv        # CSV du simulateur
- *   ./crash_analyzer --cores path/to/coredumps/   # analyse des .core
- *   ./crash_analyzer --binary ./my_app             # binaire pour GDB
- *   ./crash_analyzer --output path/out/            # dossier de sortie
- *   ./crash_analyzer --db crash.db                 # chemin SQLite
+ * Usage:
+ *   ./crash_analyzer                               # default behavior
+ *   ./crash_analyzer --input path/crash.csv        # simulator CSV
+ *   ./crash_analyzer --cores path/to/coredumps/   # parse .core files
+ *   ./crash_analyzer --binary ./my_app             # binary for GDB
+ *   ./crash_analyzer --output path/out/            # output folder
+ *   ./crash_analyzer --db crash.db                 # SQLite path
  */
 
 #include "CoreAnalyzer.hpp"
@@ -112,10 +112,10 @@ int main(int argc, char* argv[]) {
     std::cout << "📂 Output dir  : " << output_dir  << "\n";
     std::cout << "🗄️  Database    : " << db_path    << "\n\n";
 
-    // ── Step 1: Parse .core files and merge into CSV ─────────────────────────
+    // ── Step 1: Parse .core files and merge into CSV ls   ─────────────────────────
     if (!skip_cores) {
         std::cout << "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
-        std::cout << "🧩 Step 1/3: Parsing OS kernel .core files...\n";
+        std::cout << "🧩 Step  1: Parsing OS kernel .core files...\n";
         std::cout << "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
 
         Analyzer::CoreFileParser parser;
@@ -134,19 +134,14 @@ int main(int argc, char* argv[]) {
         std::cout << "\n";
     }
 
-    // ── Step 2: AI analysis pipeline ─────────────────────────────────────────
-    std::cout << "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
-    std::cout << "🤖 Step 2/3: Running ML + Pattern analysis...\n";
-    std::cout << "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
 
-    Analyzer::CoreAnalyzer analyzer(db_path);
-    analyzer.ProcessInput(input_csv, output_csv);
-    analyzer.PrintSummary();
 
-    // ── Step 3: Export JSON ───────────────────────────────────────────────────
+    // ── Step 2: Export JSON ───────────────────────────────────────────────────
     std::cout << "\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
-    std::cout << "📊 Step 3/3: Exporting results...\n";
+    std::cout << "📊 Step  2: Exporting results...\n";
     std::cout << "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
+
+
 
     std::cout << "   ✅ CSV  → " << output_csv  << "\n";
     std::cout << "   ✅ JSON → " << output_json << "\n";
@@ -161,3 +156,5 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
+
+

@@ -1,8 +1,8 @@
 #pragma once
 /*
- * PatternMatcher.hpp - Interface de correspondance de motifs.
- * Déclare les signatures et les structures utilisées pour détecter
- * les causes probables à partir des données de crash.
+ * PatternMatcher.hpp - Pattern matching interface.
+ * Declares signatures and structures used to detect
+ * probable causes from crash data.
  */
 
 #include <string>

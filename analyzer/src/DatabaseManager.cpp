@@ -1,7 +1,7 @@
 /*
- * DatabaseManager.cpp - Gestion simple de la base de données interne.
- * Ce module stocke les enregistrements de crash en mémoire et fournit
- * une interface pour l'insertion et la lecture des résultats d'analyse.
+ * DatabaseManager.cpp - Simple internal database manager.
+ * This module stores crash records in memory and provides
+ * an interface for inserting and reading analysis results.
  */
 
 #include "DatabaseManager.hpp"

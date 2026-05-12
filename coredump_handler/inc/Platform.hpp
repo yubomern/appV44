@@ -1,7 +1,7 @@
 /*
- * Platform.hpp - Abstraction de la plateforme.
- * Fournit des fonctions utilitaires compatibles Linux et Windows pour
- * l'attente, la détection de processus et la gestion des signaux.
+ * Platform.hpp - Platform abstraction.
+ * Provides Linux/Windows utility functions for
+ * sleeping, process detection, and signal handling.
  */
 
 #pragma once

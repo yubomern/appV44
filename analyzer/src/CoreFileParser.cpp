@@ -1,7 +1,7 @@
 /*
- * CoreFileParser.cpp - Analyse et extraction de données à partir de fichiers .core Linux.
- * Ce module utilise GDB en mode batch pour lire le signal, la pile d'appels,
- * les registres, l'adresse de la fonction et les informations de thread.
+ * CoreFileParser.cpp - Linux .core file parsing and data extraction.
+ * This module uses GDB in batch mode to read the signal, call stack,
+ * registers, function address, and thread metadata.
  */
 
 #include "CoreFileParser.hpp"
@@ -213,7 +213,7 @@ std::vector<CoreFileInfo> CoreFileParser::parseDirectory(const std::string& dir,
 
     for (auto& entry : fs::directory_iterator(dir, ec)) {
         if (!entry.is_regular_file()) continue;
-        std::string name = entry.path().filename().string();
+        std::string name = entry.path().filename().string(); // file name 
         // Match: core, core.*, *.core, core.<exe>.<pid>.<ts>
         bool is_core = (name == "core") ||
                        (name.substr(0, 5) == "core.") ||

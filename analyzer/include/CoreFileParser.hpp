@@ -1,8 +1,8 @@
 #pragma once
 /*
- * CoreFileParser.hpp - Interface de l'analyse des fichiers core Linux.
- * Déclare les structures et fonctions pour extraire les informations
- * de signal, de pile d'appels, de registres et de threads.
+ * CoreFileParser.hpp - Linux core file parser interface.
+ * Declares structures and functions to extract signal, stack,
+ * register, and thread information.
  */
 
 #include <string>

@@ -1,7 +1,7 @@
 /*
- * Simulator.hpp - Interface du simulateur de crash.
- * Déclare la classe qui orchestre la génération de crashs, les scénarios
- * et la production de rapports destinés à l'analyse.
+ * Simulator.hpp - Crash simulator interface.
+ * Declares the class that orchestrates crash generation, scenario
+ * execution, and report production for later analysis.
  */
 
 #pragma once

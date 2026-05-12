@@ -1,7 +1,7 @@
 /*
- * BacktraceCollector.cpp - Collecte de la pile d'appels.
- * Ce fichier contient les fonctions permettant de capturer la trace
- * d'exécution au moment du crash pour analyse ultérieure.
+ * BacktraceCollector.cpp - Call stack collection.
+ * This file contains functions to capture the execution trace
+ * at crash time for later analysis.
  */
 
 #include "BacktraceCollector.hpp"

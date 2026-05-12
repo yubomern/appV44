@@ -1,7 +1,7 @@
 /*
- * CoreDump.cpp - Gestion des données de coredump.
- * Implémente la lecture, la validation et l'enregistrement des coredumps
- * ainsi que la création des fichiers de métadonnées associés.
+ * CoreDump.cpp - Core dump data management.
+ * Implements reading, validating, and storing core dumps,
+ * as well as generating associated metadata files.
  */
 
 #include "CoreDump.hpp"

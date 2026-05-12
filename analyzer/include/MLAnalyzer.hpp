@@ -1,8 +1,8 @@
 #pragma once
 /*
- * MLAnalyzer.hpp - Interface de l'analyse par apprentissage automatique.
- * Déclare les structures et la classe utilisées pour prédire les causes
- * et recommander des solutions en fonction des données de crash.
+ * MLAnalyzer.hpp - Machine learning analysis interface.
+ * Declares structures and classes used to predict root causes
+ * and recommend fixes based on crash data.
  */
 
 #include <string>

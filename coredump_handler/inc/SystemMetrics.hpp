@@ -1,7 +1,7 @@
 /*
- * SystemMetrics.hpp - Déclaration des métriques système collectées.
- * Contient la structure de données utilisée pour stocker CPU, mémoire,
- * nombre de threads et informations de processus au moment du crash.
+ * SystemMetrics.hpp - Declaration of collected system metrics.
+ * Contains the data structure used to store CPU, memory,
+ * thread count, and process information at crash time.
  */
 
 #pragma once

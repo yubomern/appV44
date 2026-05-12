@@ -1,7 +1,7 @@
 /*
- * Randomizer.hpp - Interface du générateur de nombres aléatoires.
- * Fournit les fonctions pour obtenir des catégories de crash,
- * des tailles de mémoire, des profondeurs et des codes d'exception.
+ * Randomizer.hpp - Random number generator interface.
+ * Provides functions to obtain crash categories, memory sizes,
+ * depths, and exception codes.
  */
 
 #pragma once

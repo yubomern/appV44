@@ -1,7 +1,7 @@
 /*
- * Randomizer.cpp - Générateur de valeurs aléatoires pour le simulateur.
- * Produit les catégories de crash, les tailles de mémoire, les profondeurs
- * de récursion et les intensités de plantage aléatoires.
+ * Randomizer.cpp - Random value generator for the simulator.
+ * Produces crash categories, memory sizes, recursion depths,
+ * and random crash intensities.
  */
 
 #include "Randomizer.hpp"
